@@ -184,7 +184,7 @@ if __name__ == "__main__":
             recipient_account = input("Enter account number you wish to send money to: ")
 
             if not bank_system.find_customer_by_account(recipient_account):
-                print("The specified account does not exist!")
+                print("The specified account does not exist")
                 break
 
             pin = input("Enter your PIN: ")
